@@ -1,10 +1,52 @@
-.navbar, .navbar-expand-sm ,.bg-dark ,.navbar-dark{
-   width: 5px;
-   height: 5px;
+$font-stack: Helvetica, sans-serif;
+$primary-color:rgb(13, 49, 71);
+$secundary-color: #fff;
+$third-color: rgb(253, 208, 105);
+$carousel-control-width:             15%;
+%hover {
+    cursor: pointer;
+  }
+.navbar-nav,.navbar-expand-sm,.navbar-dark, a, .nav-item {
+    color: $primary-color;
+    background-color:$third-color ;
+  }
+  
+  .navbar-nav :hover {
+    @extend %hover;
+  }
+  .container-fluid{
+    background-color:$third-color;
+  }
+  .navbar-brand{
+    background-color:$third-color;
+  }
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: $third-color !important;
+  }
+  .content-box
+{
+    margin-top: 20px;
+    display:flex;
+    border-radius:15px;
+    margin-bottom:30px;
+    align-items: center;
 }
-.container-fluid{
-    width: auto;
-    height: auto;
+.content-box-item p
+{
+    padding: 10px;
 }
-
-@import "../node_modules/bootstrap/scss/bootstrap";
+.content-box-item img
+{
+    width:100%;
+    border-radius: 100%;
+}
+.carousel, .slide{
+  width: 50%;
+  max-height: max-content;
+  margin-left: 3%;
+}
+.carousel-inner{
+  width: 80%;
+  height: 30%;
+}

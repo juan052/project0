@@ -1,0 +1,51 @@
+.navbar-nav :hover {
+  cursor: pointer;
+}
+
+.navbar-nav, .navbar-expand-sm, .navbar-dark, a, .nav-item {
+  color: rgb(13, 49, 71);
+  background-color: rgb(253, 208, 105);
+}
+
+.container-fluid {
+  background-color: rgb(253, 208, 105);
+}
+
+.navbar-brand {
+  background-color: rgb(253, 208, 105);
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgb(253, 208, 105) !important;
+}
+
+.content-box {
+  margin-top: 20px;
+  display: flex;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.content-box-item p {
+  padding: 10px;
+}
+
+.content-box-item img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.carousel, .slide {
+  width: 50%;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  margin-left: 3%;
+}
+
+.carousel-inner {
+  width: 80%;
+  height: 30%;
+}/*# sourceMappingURL=estilo.css.map */
