@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+--root{
+  --colore:rgb(13, 49, 71);
+}
 .logo {
     height: 75px;
     width: 75px;
@@ -14,4 +17,15 @@ a {
 
 br{
   background: rgb(13, 49, 71);
+}
+section{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+.tamaño{
+  margin-left: 50px;
+  margin-right: 100px;
+  padding: 5px;
 }

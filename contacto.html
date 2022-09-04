@@ -37,104 +37,180 @@
     </nav>
   </header>
   <main>
-    <section class="shadow-lg p-3 mb-5 bg-body rounded">
-      <form class="shadow-lg p-3 mb-5 bg-body rounded">
-        <div class="form-group">
-          <label for="nombre">Nombre:</label>
-          <input type="text" class="form-control" placeholder="nombre..." id="nombre">
+    <section class="mb-4 shadow-lg p-3 mb-5 bg-body rounded">
+
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">Contactanos</h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Estamos ansioso por empezar un proyecto contigo.</p>
+
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" method="POST">
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control">
+                  <label for="name" class="">Your name</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="email" name="email" class="form-control">
+                  <label for="email" class="">Your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject" class="">Subject</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12">
+
+                <div class="md-form">
+                  <textarea type="text" id="message" name="message" rows="2"
+                    class="form-control md-textarea"></textarea>
+                  <label for="message">Escribe tu mensaje</label>
+                </div>
+
+              </div>
+            </div>
+            <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
         </div>
-        <div class="form-group">
-          <label for="email">E-mail:</label>
-          <input type="email" class="form-control" placeholder="E-mail..." id="email">
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>La Calzada, Granada, Nicaragua</p>
+            </li>
+
+            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+              <p>+ 505 85 38 96 09</p>
+            </li>
+
+            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>LuxxArtCfts@gmail.com</p>
+            </li>
+          </ul>
         </div>
-        <div class="form-group">
-          <label for="mensaje">Mensaje:</label>
-          <textarea class="form-control" row="5" id="mensaje"></textarea>
-        </div>
-        <button type="submit" class="btn btn-dark">Enviar</button>
-      </form>
+
+      </div>
+
     </section>
   </main>
   <div class="container my-5">
-      
+
     <footer class="text-center text-lg-start text-dark" style="background-color: #ECEFF1">
-       
-        <section class="d-flex justify-content-between p-4 text-white" style="background-color: #21D192">
-       
-            <div class="me-5">
-                <span>Contactanos en nuestras redes sociales:</span>
-            </div>
-            <div>
-                <a href="https://www.instagram.com/luxx.art.cfts/" class="text-white me-4">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://twitter.com/SobrecitoBaby" class="text-white me-4">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.instagram.com/luxx.art.cfts/" class="text-white me-4">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://github.com/juanjose23" class="text-white me-4">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-          
-        </section>
-       
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-              
-                <div class="row mt-3">
-                  
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                      
-                        <h6 class="text-uppercase fw-bold">Luxx Art-Cfts</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p>
-                            Luxx Art-Cfts es un emprendimiento que nace por el amor al arte y 
-                            manualidades a mano.
-                        </p>
-                    </div>
-                   
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                      
-                        <h6 class="text-uppercase fw-bold">Productos</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p>
-                            <a href="/galeria.html" class="text-dark">Collares</a>
-                        </p>
-                        <p>
-                            <a href="/galeria.html" class="text-dark">Pulseras</a>
-                        </p>
-                        <p>
-                            <a href="/galeria.html" class="text-dark">Cuadros</a>
-                        </p>
-                        <p>
-                            <a href="/galeria.html" class="text-dark">Personalizacion de  covers</a>
-                        </p>
-                    </div>    
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                       
-                        <h6 class="text-uppercase fw-bold">Contacto</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p><i class="fas fa-home mr-3"></i> La Calzada, Granada</p>
-                        <p><i class="fas fa-envelope mr-3"></i>Luxx Art-Cfts</p>
-                        <p><i class="fas fa-phone mr-3"></i> +505 8538-9609</p>
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </section>
-        
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2022 Copyright:
-            <a class="text-dark" href="">Luxx Art-Cfts</a>
+
+      <section class="d-flex justify-content-between p-4 text-white" style="background-color: #21D192">
+
+        <div class="me-5">
+          <span>Contactanos en nuestras redes sociales:</span>
         </div>
-      
+        <div>
+          <a href="https://www.instagram.com/luxx.art.cfts/" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/SobrecitoBaby" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/luxx.art.cfts/" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/juanjose23" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+      </section>
+
+      <section class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="container text-center text-md-start mt-5">
+
+          <div class="row mt-3">
+
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold">Luxx Art-Cfts</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                Luxx Art-Cfts es un emprendimiento que nace por el amor al arte y
+                manualidades a mano.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <h6 class="text-uppercase fw-bold">Productos</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="/galeria.html" class="text-dark">Collares</a>
+              </p>
+              <p>
+                <a href="/galeria.html" class="text-dark">Pulseras</a>
+              </p>
+              <p>
+                <a href="/galeria.html" class="text-dark">Cuadros</a>
+              </p>
+              <p>
+                <a href="/galeria.html" class="text-dark">Personalizacion de covers</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+              <h6 class="text-uppercase fw-bold">Contacto</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p><i class="fas fa-home mr-3"></i> La Calzada, Granada</p>
+              <p><i class="fas fa-envelope mr-3"></i>Luxx Art-Cfts</p>
+              <p><i class="fas fa-phone mr-3"></i> +505 8538-9609</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-dark" href="">Luxx Art-Cfts</a>
+      </div>
+
     </footer>
 </body>
 
