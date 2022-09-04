@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
 .navbar-nav :hover {
   cursor: pointer;
 }
@@ -5,6 +6,7 @@
 .navbar-nav, .navbar-expand-sm, .navbar-dark, a, .nav-item {
   color: rgb(13, 49, 71);
   background-color: rgb(253, 208, 105);
+  font-family: "Poppins";
 }
 
 .container-fluid {
@@ -28,24 +30,46 @@
   align-items: center;
 }
 
-.content-box-item p {
-  padding: 10px;
-}
-
-.content-box-item img {
-  width: 100%;
-  border-radius: 100%;
-}
-
 .carousel, .slide {
-  width: 50%;
-  max-height: -webkit-max-content;
-  max-height: -moz-max-content;
-  max-height: max-content;
-  margin-left: 3%;
+  width: 40%;
+  height: 50%;
+  margin: 0%;
 }
 
 .carousel-inner {
-  width: 80%;
-  height: 30%;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-right: -12;
+  margin-left: 0%;
+}
+
+.data-slide {
+  margin-top: 5px;
+  margin-left: -30px;
+  margin-right: -12px;
+}
+
+.carousel-caption {
+  color: whitesmoke;
+  font-family: "Poppins";
+  font-size: medium;
+  font-style: inherit;
+}
+
+.col {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
 }/*# sourceMappingURL=estilo.css.map */
