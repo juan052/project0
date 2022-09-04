@@ -12,7 +12,6 @@ $for-color: rgb(231, 71, 117);
 .navbar-nav,
 .navbar-expand-sm,
 .navbar-dark,
-a,
 .nav-item {
   color: $primary-color;
   background-color: $third-color ;
@@ -94,7 +93,7 @@ a,
   position: relative;
   text-align: justify;
   margin-left: 25px;
-  
+
 }
 
 .card:hover {
