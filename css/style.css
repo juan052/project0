@@ -61,7 +61,7 @@ section {
 
   font-family: 'Poppins';
   text-transform: lowercase;
-  margin-top: 20px;
+  margin-top: 250px;
   margin-left: 100px;
   margin-right: 100px;
   font-weight: 1200px;
@@ -112,7 +112,6 @@ li {
   margin: 0px;
   list-style-type: none;
 }
-
 
 
 input {
